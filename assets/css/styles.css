@@ -1,1 +1,41 @@
-/* Add your code here */
+/* This feels like spaghetti code */
+
+* {background-color: #333232;}
+* {color: #ffffff;}
+* {font-family: Verdana;}
+
+.centered_text {
+    text-align: center; 
+    vertical-align: middle; 
+    width: 100%; 
+    font-weight: bold;
+}
+
+nav a {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: purple;
+}
+
+#header {
+    background-color: black; 
+    margin: auto; 
+    width: 100%;
+}
+
+#header_padding {
+    background-color: black; 
+    width: 100%; 
+    padding: 10px;
+}
+
+.centered_text_heading {
+    font-family: Garamond; 
+    font-size: 35px; 
+    font-weight: bold; 
+    text-align: center; 
+    vertical-align: middle; 
+    width: 100%;
+}
