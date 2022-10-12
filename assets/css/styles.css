@@ -20,24 +20,22 @@
     width: 100%;
 }
 
-nav a {
-    margin-top: 5px;
-    margin-bottom: 5px;
-    margin-left: 5px;
-    margin-right: 5px;
-    background-color: black;
-}
-
 #header {
     background-color: black; 
     margin: auto; 
     width: 100%;
 }
 
+#header_w80 {
+    background-color: black; 
+    margin: auto; 
+    width: 80%;
+}
+
 #header_padding {
     background-color: black; 
     width: 100%; 
-    padding: 10px;
+    padding: 10px 0px;
 }
 
 em {
@@ -56,3 +54,41 @@ footer a {
     margin-left: 0px;
     margin-right: 0px;
 }
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+nav {
+    text-align: center;
+}
+  
+nav li {
+    display: inline-block;
+    width: 20%;
+    background-color: black;
+    padding: 5px;
+}
+
+nav li:hover {
+    background-color: purple;
+    padding: 5px;
+}
+
+main {
+    columns: 100px 2;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    margin: auto;
+  }
