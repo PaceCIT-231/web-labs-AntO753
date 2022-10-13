@@ -83,12 +83,16 @@ nav li:hover {
     padding: 5px;
 }
 
-main {
-    columns: 100px 2;
-}
-
 footer {
     position: fixed;
     bottom: 0;
     margin: auto;
-  }
+}
+
+.flex_box {
+    display: flex;
+}
+
+#padding_flex {
+    padding-right: 10px;
+}
