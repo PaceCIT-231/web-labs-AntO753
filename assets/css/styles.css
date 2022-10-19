@@ -4,6 +4,10 @@
 * {color: #ffffff;}
 * {font-family: Verdana;}
 
+main {
+    background-image: url("../../images/Background\ Image.png");
+}
+
 .centered_text {
     text-align: center; 
     vertical-align: middle; 
