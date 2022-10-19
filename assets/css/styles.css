@@ -1,11 +1,12 @@
 /* This feels like spaghetti code */
 
-* {background-color: #333232;}
+html {background-color: hsl(0, 1%, 20%);}
 * {color: #ffffff;}
 * {font-family: Verdana;}
 
 main {
     background-image: url("../../images/Background\ Image.png");
+    background-color: hsl(0, 1%, 20%);
 }
 
 .centered_text {
@@ -91,12 +92,4 @@ footer {
     position: fixed;
     bottom: 0;
     margin: auto;
-}
-
-.flex_box {
-    display: flex;
-}
-
-#padding_flex {
-    padding-right: 10px;
 }
