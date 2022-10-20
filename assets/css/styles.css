@@ -1,12 +1,16 @@
 /* This feels like spaghetti code */
 
-html {background-color: hsl(0, 1%, 20%);}
 * {color: #ffffff;}
+
 * {font-family: Verdana;}
+
+html {
+    background-color: hsl(0, 1%, 20%);
+}
 
 main {
     background-image: url("../../images/Background\ Image.png");
-    background-color: hsl(0, 1%, 20%);
+    background-color: hsl(0, 1%, 20%); 
 }
 
 .centered_text {
@@ -23,6 +27,22 @@ main {
     text-align: center; 
     vertical-align: middle; 
     width: 100%;
+}
+
+.black_text {
+    color: black;
+}
+
+.float {
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.float_newsun {
+    float: left;
+    padding-right: 30px;
+    padding-left: 10px;
 }
 
 #header {
