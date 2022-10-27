@@ -1,115 +1,369 @@
 /* This feels like spaghetti code */
 
-* {color: #ffffff;}
+    * {color: #ffffff;}
 
-* {font-family: Verdana;}
+    * {font-family: Verdana;}
+    
+    body {
+        width: 100%;
+        margin: auto;
+    }
 
-html {
-    background-color: hsl(0, 1%, 20%);
-}
+    html {
+        background-color: hsl(0, 1%, 20%);
+    }
 
-main {
-    background-image: url("../../images/Background\ Image.png");
-    background-color: hsl(0, 1%, 20%); 
-}
+    main {
+        background-image: url("../../images/Background\ Image.png");
+        background-color: hsl(0, 1%, 20%);
+        column-count: 1;
+    }
 
-.centered_text {
-    text-align: center; 
-    vertical-align: middle; 
-    width: 100%; 
-    font-weight: bold;
-}
+    img {
+        width: 100%;
+    }
 
-.centered_text_heading {
-    font-family: Garamond; 
-    font-size: 35px; 
-    font-weight: bold; 
-    text-align: center; 
-    vertical-align: middle; 
-    width: 100%;
-}
+    .centered_text {
+        text-align: center; 
+        vertical-align: middle; 
+        width: 100%; 
+        font-weight: bold;
+    }
 
-.black_text {
-    color: black;
-}
+    .centered_text_heading {
+        font-family: Garamond; 
+        font-size: 35px; 
+        font-weight: bold; 
+        text-align: center; 
+        vertical-align: middle; 
+        width: 100%;
+    }
 
-.float {
-    float: left;
-    padding-left: 5px;
-    padding-right: 5px;
-}
+    .black_text {
+        color: black;
+    }
 
-.float_newsun {
-    float: left;
-    padding-right: 30px;
-    padding-left: 10px;
-}
+    .float {
+        float: left;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
 
-#header {
-    background-color: black; 
-    margin: auto; 
-    width: 100%;
-}
+    .float_newsun {
+        float: left;
+        padding-right: 30px;
+        padding-left: 10px;
+    }
 
-#header_w80 {
-    background-color: black; 
-    margin: auto; 
-    width: 80%;
-}
+    #cerebrusimg {
+        max-width: 305px;
+    }
 
-#header_padding {
-    background-color: black; 
-    width: 100%; 
-    padding: 10px 0px;
-}
+    #gwportrait {
+        max-width: 70px;
+    }
 
-em {
-    font-weight: 700;
-    font-style: oblique;
-}
+    #newsunimg {
+        max-width: 318px;
+    }
 
-#bullet_list {
-    list-style-image: url(https://cdn.discordapp.com/attachments/1019679825545408522/1027685556651556944/genewolfe.png);
-}
+    #header {
+        background-color: black; 
+        margin: auto; 
+        width: 100%;
+    }
 
-footer a {
-    background-color: black;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
-}
+    #header_w80 {
+        background-color: black; 
+        margin: auto; 
+        width: 80%;
+    }
 
-body {
-    width: 80%;
-    margin: auto;
-}
+    #header_padding {
+        background-color: black; 
+        width: 100%; 
+        padding: 10px 0px;
+    }
 
-nav ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    background-color: black;
-}
+    em {
+        font-weight: 700;
+        font-style: oblique;
+    }
 
-nav {
-    text-align: center;
-}
+    #bullet_list {
+        list-style-image: url(https://cdn.discordapp.com/attachments/1019679825545408522/1027685556651556944/genewolfe.png);
+    }
+
+    footer a {
+        background-color: black;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+    }
+
+    nav {
+        text-align: center;
+    }
   
-nav li {
-    display: inline-block;
-    width: 20%;
-    background-color: black;
-    padding: 5px;
+    nav li {
+        display: inline-block;
+        width: 20%;
+        background-color: black;
+        padding: 5px;
+    }
+
+    nav li:hover {
+        background-color: purple;
+        padding: 5px;
+    }
+
+    footer {
+        position: relative;
+        bottom: 0;
+        margin: auto;
+    }
+
+@media only screen and (min-width: 768px) {
+    
+    * {color: #ffffff;}
+
+    * {font-family: Verdana;}
+    
+    body {
+        width: 80%;
+        margin: auto;
+    }
+
+    html {
+        background-color: hsl(0, 1%, 20%);
+
+    }
+
+    main {
+        background-image: url("../../images/Background\ Image.png");
+        background-color: hsl(0, 1%, 20%);
+        column-count: 3;
+    }
+
+    .centered_text {
+        text-align: center; 
+        vertical-align: middle; 
+        width: 100%; 
+        font-weight: bold;
+    }
+
+    .centered_text_heading {
+        font-family: Garamond; 
+        font-size: 35px; 
+        font-weight: bold; 
+        text-align: center; 
+        vertical-align: middle; 
+        width: 100%;
+    }
+
+    .black_text {
+        color: black;
+    }
+
+    .float {
+        float: left;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .float_newsun {
+        float: left;
+        padding-right: 30px;
+        padding-left: 10px;
+    }
+
+    #header {
+        background-color: black; 
+        margin: auto; 
+        width: 100%;
+    }
+
+    #header_w80 {
+        background-color: black; 
+        margin: auto; 
+        width: 80%;
+    }
+
+    #header_padding {
+        background-color: black; 
+        width: 100%; 
+        padding: 10px 0px;
+    }
+
+    em {
+        font-weight: 700;
+        font-style: oblique;
+    }
+
+    #bullet_list {
+        list-style-image: url(https://cdn.discordapp.com/attachments/1019679825545408522/1027685556651556944/genewolfe.png);
+    }
+
+    footer a {
+        background-color: black;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+    }
+
+    nav {
+        text-align: center;
+    }
+  
+    nav li {
+        display: inline-block;
+        width: 20%;
+        background-color: black;
+        padding: 5px;
+    }
+
+    nav li:hover {
+        background-color: purple;
+        padding: 5px;
+    }
+
+    footer {
+        position: relative;
+        bottom: 0;
+        margin: auto;
+    }
 }
 
-nav li:hover {
-    background-color: purple;
-    padding: 5px;
-}
+@media only screen and (min-width: 1200px) {
+    
+    * {color: #ffffff;}
 
-footer {
-    position: fixed;
-    bottom: 0;
-    margin: auto;
+    * {font-family: Verdana;}
+
+    html {
+        background-color: hsl(0, 1%, 20%);
+    }
+
+    main {
+        background-image: url("../../images/Background\ Image.png");
+        background-color: hsl(0, 1%, 20%);
+        column-count: 1; 
+    }
+
+    .centered_text {
+        text-align: center; 
+        vertical-align: middle; 
+        width: 100%; 
+        font-weight: bold;
+    }
+
+    .centered_text_heading {
+        font-family: Garamond; 
+        font-size: 35px; 
+        font-weight: bold; 
+        text-align: center; 
+        vertical-align: middle; 
+        width: 100%;
+    }
+
+    .black_text {
+        color: black;
+    }
+
+    .float {
+        float: left;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .float_newsun {
+        float: left;
+        padding-right: 30px;
+        padding-left: 10px;
+    }
+
+    #header {
+        background-color: black; 
+        margin: auto; 
+        width: 100%;
+    }
+
+    #header_w80 {
+        background-color: black; 
+        margin: auto; 
+        width: 80%;
+    }
+
+    #header_padding {
+        background-color: black; 
+        width: 100%; 
+        padding: 10px 0px;
+    }
+
+    em {
+        font-weight: 700;
+        font-style: oblique;
+    }
+
+    #bullet_list {
+        list-style-image: url(https://cdn.discordapp.com/attachments/1019679825545408522/1027685556651556944/genewolfe.png);
+    }
+
+    footer a {
+        background-color: black;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    body {
+        width: 80%;
+        margin: auto;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+    }
+
+    nav {
+        text-align: center;
+    }
+  
+    nav li {
+        display: inline-block;
+        width: 20%;
+        background-color: black;
+        padding: 5px;
+    }
+
+    nav li:hover {
+        background-color: purple;
+        padding: 5px;
+    }
+
+    footer {
+        position: relative;
+        bottom: 0;
+        margin: auto;
+    }
 }
