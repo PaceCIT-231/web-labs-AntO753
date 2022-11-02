@@ -36,6 +36,18 @@
             <h3 class="black_text">Schedule</h3>
                 <p class="black_text">Fan meetup at Gene Wolfe's grave - April 14th, 2023</p>
                 <iframe width="773" height="580" src="https://www.youtube.com/embed/t_mEpLK8cWE" title="Gene Wolfe interview (Wizard/Knight)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <form action="success.html" method="get" name="SiteReview" id="SiteReview">
+            <label for="fullname" class="black_text">Full Name:</label>
+            <input type="text" id="fullname" name="fullname" class="black_text" required><br>
+            <label for="email" class="black_text">E-Mail Address:</label>
+            <input type="text" id="email" name="email" class="black_text" required><br>
+            <label class="black_text">Do You Like This Website?</label><br>
+            <label for="websitelike" class="black_text">Yes:</label>
+            <input type="checkbox" id="websitelike" name="Yes" class="black_text"><br>
+            <label for="comments" class="black_text">Additional Comments:</label>
+            <textarea id="comments" name="comments" rows="4" columns="4" class="black_text"></textarea>
+            <input type="submit" name="submit" value="Submit" onclick="validate()" class="black_text">
+        </form>
     </main>
         <footer class="centered_text" id="header_w80">
             <hr>
