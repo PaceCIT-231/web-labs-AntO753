@@ -1,172 +1,209 @@
 /* This feels like spaghetti code */
 
-    * {color: #ffffff;}
+* {color: #ffffff;}
 
-    * {font-family: Verdana;}
+* {font-family: Verdana;}
     
-    body {
-        width: 100%;
-        margin: auto;
-    }
+body {
+    width: 100%;
+    margin: auto;
+}
 
-    html {
-        background-color: hsl(0, 1%, 20%);
-    }
+html {
+    background-color: hsl(0, 1%, 20%);
+}
 
-    main {
-        background-image: url("../../images/Background\ Image.png");
-        background-color: hsl(0, 1%, 20%);
-        column-count: 1;
-    }
+main {
+    background-image: url("../../images/Background\ Image.png");
+    background-color: hsl(0, 1%, 20%);
+    column-count: 1;
+}
 
-    img {
-        width: 100%;
-    }
+img {
+    width: 100%;
+}
 
-    td, th {
-        border: 2px solid black;
-        padding: 3px;
-        text-align: center;
-    }
+td, th {
+    border: 2px solid black;
+    padding: 3px;
+    text-align: center;
+}
 
-    table {
-        border-collapse: collapse;
-    }
+table {
+    border-collapse: collapse;
+}
 
-    thead, th {
-        background-color: orange;
-        text-transform: uppercase;
-    }
+thead, th {
+    background-color: orange;
+    text-transform: uppercase;
+}
 
-    tr:nth-of-type(even) {
-        background-color: #ffcc80;
-    }
+tr:nth-of-type(even) {
+    background-color: #ffcc80;
+}
 
-    tr:nth-of-type(odd) {
-        background-color: #ffffff;
-    }
+tr:nth-of-type(odd) {
+    background-color: #ffffff;
+}
 
-    input, textarea {
-        display: block;
-    }
+input, textarea {
+    display: block;
+}
 
-    input[type=checkbox] {
-        display: inline-block;
-    }
+input[type=checkbox] {
+    display: inline-block;
+}
 
-    .centered_text {
-        text-align: center; 
-        vertical-align: middle; 
-        width: 100%; 
-        font-weight: bold;
-    }
+.centered_text {
+    text-align: center; 
+    vertical-align: middle; 
+    width: 100%; 
+    font-weight: bold;
+}
 
-    .centered_text_heading {
-        font-family: Garamond; 
-        font-size: 35px; 
-        font-weight: bold; 
-        text-align: center; 
-        vertical-align: middle; 
-        width: 100%;
-    }
+.centered_text_heading {
+    font-family: Garamond; 
+    font-size: 35px; 
+    font-weight: bold; 
+    text-align: center; 
+    vertical-align: middle; 
+    width: 100%;
+}
 
-    .black_text {
-        color: black;
-    }
+.black_text {
+    color: black;
+}
 
-    .float {
-        float: left;
-        padding-left: 5px;
-        padding-right: 5px;
-    }
+.float {
+    float: left;
+    padding-left: 5px;
+    padding-right: 5px;
+}
 
-    .float_newsun {
-        float: left;
-        padding-right: 30px;
-        padding-left: 10px;
-    }
+.float_newsun {
+    float: left;
+    padding-right: 30px;
+    padding-left: 10px;
+}
 
-    #cerebrusimg {
-        max-width: 305px;
-    }
+.tblrow {
+    display: table-row;
+}
 
-    #gwportrait {
-        max-width: 70px;
-    }
+.tblcell {
+    display: table-cell;
+    border: 2px solid black;
+    padding: 3px;
+    background-color: white;
+    text-align: center;
+}
 
-    #newsunimg {
-        max-width: 318px;
-    }
+.tblcell2 {
+    display: table-cell;
+    border: 2px solid black;
+    padding: 3px;
+    background-color: orange;
+    text-align: center;
+}
 
-    #header {
-        background-color: black; 
-        margin: auto; 
-        width: 100%;
-    }
+#table {
+    display: table;
+    margin: 15px auto;
+}
 
-    #header_w80 {
-        background-color: black; 
-        margin: auto; 
-        width: 80%;
-    }
+#black_text {
+    color: black;
+}
 
-    #header_padding {
-        background-color: black; 
-        width: 100%; 
-        padding: 10px 0px;
-    }
+#cerebrusimg {
+    max-width: 305px;
+}
 
-    em {
-        font-weight: 700;
-        font-style: oblique;
-    }
+#gwportrait {
+    max-width: 70px;
+}
 
-    #bullet_list {
-        list-style-image: url(https://cdn.discordapp.com/attachments/1019679825545408522/1027685556651556944/genewolfe.png);
-    }
+#newsunimg {
+    max-width: 318px;
+}
 
-    footer a {
-        background-color: black;
-        margin-top: 0px;
-        margin-bottom: 0px;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
+#header {
+    background-color: black; 
+    margin: auto; 
+    width: 100%;
+}
 
-    nav ul {
-        list-style-type: none;
-        margin: 0px;
-        padding: 0px;
-        background-color: black;
-    }
+#header_w80 {
+    background-color: black; 
+    margin: auto; 
+    width: 80%;
+}
 
-    nav {
-        text-align: center;
-    }
+#header_padding {
+    background-color: black; 
+    width: 100%; 
+    padding: 10px 0px;
+}
+
+em {
+    font-weight: 700;
+    font-style: oblique;
+}
+
+#bullet_list {
+    list-style-image: url(https://cdn.discordapp.com/attachments/1019679825545408522/1027685556651556944/genewolfe.png);
+}
+
+footer a {
+    background-color: black;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+nav {
+    text-align: center;
+}
   
-    nav li {
-        display: inline-block;
-        width: 20%;
-        background-color: black;
-        padding: 5px;
-    }
+nav li {
+    display: inline-block;
+    width: 20%;
+    background-color: black;
+    padding: 5px;
+}
 
-    nav li:hover {
-        background-color: purple;
-        padding: 5px;
-    }
+nav li:hover {
+    background-color: purple;
+    padding: 5px;
+}
 
-    footer {
-        position: relative;
-        bottom: 0;
-        margin: auto;
-    }
+footer {
+    position: relative;
+    bottom: 0;
+    margin: auto;
+}
 
-    iframe {
-        max-width: 773px;
-        width: 100%;
-        margin: auto;
+iframe {
+    max-width: 773px;
+    width: 100%;
+    margin: auto;
+}
+
+@media screen and (max-width: 600px) {
+
+    #table {
+        display: block;
+        margin: 15px auto;
     }
+}
 
 @media only screen and (min-width: 768px) {
     
