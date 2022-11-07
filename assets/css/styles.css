@@ -91,19 +91,29 @@ input[type=checkbox] {
 }
 
 .tblcell {
-    display: table-cell;
+    display: inline-block;
     border: 2px solid black;
     padding: 3px;
     background-color: white;
     text-align: center;
+    width: 230px!important;
+}
+
+.tblcell1 {
+    border: 2px solid black;
+    padding: 3px;
+    background-color: orange;
+    text-align: center;  
+    width: 470px!important;
 }
 
 .tblcell2 {
-    display: table-cell;
+    display: inline-block;
     border: 2px solid black;
     padding: 3px;
     background-color: orange;
     text-align: center;
+    width: 230px!important;
 }
 
 #table {
@@ -197,14 +207,6 @@ iframe {
     margin: auto;
 }
 
-@media screen and (max-width: 600px) {
-
-    #table {
-        display: block;
-        margin: 15px auto;
-    }
-}
-
 @media only screen and (min-width: 768px) {
     
     * {color: #ffffff;}
@@ -259,6 +261,10 @@ iframe {
         padding-left: 10px;
     }
 
+    .tblcell1 {
+        width: 230px!important;
+    }
+
     #header {
         background-color: black; 
         margin: auto; 
@@ -277,6 +283,10 @@ iframe {
         padding: 10px 0px;
     }
 
+    .tblcell1 {
+        width: 230px!important;
+    }
+
     em {
         font-weight: 700;
         font-style: oblique;
@@ -284,6 +294,11 @@ iframe {
 
     #bullet_list {
         list-style-image: url(https://cdn.discordapp.com/attachments/1019679825545408522/1027685556651556944/genewolfe.png);
+    }
+
+    #table {
+        display: block;
+        margin: 15px auto;
     }
 
     footer a {
@@ -322,6 +337,7 @@ iframe {
         bottom: 0;
         margin: auto;
     }
+   
 }
 
 @media only screen and (min-width: 1200px) {
@@ -439,5 +455,9 @@ iframe {
         position: relative;
         bottom: 0;
         margin: auto;
+    }
+
+    .tblcell1 {
+        width: 470px!important;
     }
 }
